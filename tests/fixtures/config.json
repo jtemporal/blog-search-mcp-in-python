@@ -1,0 +1,7 @@
+{
+  "GITHUB_REPO_OWNER": "testuser",
+  "GITHUB_REPO_NAME": "test-blog",
+  "BLOG_POSTS_PATH": "_posts",
+  "BLOG_BASE_URL": "https://testblog.com",
+  "SERVER_NAME": "Test Blog Search Server"
+}

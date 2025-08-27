@@ -1,0 +1,17 @@
+[
+  {
+    "name": "2024-01-15-python-tips.md",
+    "content": "---\ntitle: \"Python Tips and Tricks\"\ndate: 2024-01-15\ntags: python, programming, tips\n---\n\nThis post covers some useful Python tips and tricks that every developer should know.\nWe'll explore list comprehensions, decorators, and context managers.\n\nPython is a versatile language that offers many ways to write clean, efficient code.\n",
+    "url": "https://yourblog.com/2024-01-15-python-tips"
+  },
+  {
+    "name": "2024-01-10-web-development.md",
+    "content": "---\ntitle: \"Getting Started with Web Development\"\ndate: 2024-01-10\ntags: web, html, css, javascript\n---\n\nWeb development is an exciting field that combines creativity with technical skills.\nIn this post, we'll cover the basics of HTML, CSS, and JavaScript.\n\nBuilding your first website can be both challenging and rewarding.\n",
+    "url": "https://yourblog.com/2024-01-10-web-development"
+  },
+  {
+    "name": "2024-01-05-data-science-intro.md",
+    "content": "---\ntitle: \"Introduction to Data Science\"\ndate: 2024-01-05\ntags: data-science, python, pandas, numpy\n---\n\nData science is the art of extracting insights from data using statistical methods and programming.\nPython is one of the most popular languages for data science due to its rich ecosystem.\n\nWe'll explore pandas for data manipulation and numpy for numerical computing.\n",
+    "url": "https://yourblog.com/2024-01-05-data-science-intro"
+  }
+]

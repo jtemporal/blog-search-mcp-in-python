@@ -1,0 +1,7 @@
+# Sample configuration file for MCP Blog Search Server
+# Copy this to .config, remove these comments, and customize for your blog
+[MCP_SERVER]
+blog_base_url = https://your-blog.com
+serpapi_key = serpapi-key
+server_name = Blog Search Server
+log_level = INFO

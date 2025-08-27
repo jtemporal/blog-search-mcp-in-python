@@ -1,0 +1,17 @@
+{
+  "search_metadata": {
+    "status": "Success"
+  },
+  "organic_results": [
+    {
+      "title": "Python Tips and Tricks",
+      "link": "https://yourblog.com/2024-01-15-python-tips",
+      "snippet": "This post covers some useful Python tips and tricks that every developer should know. We'll explore list comprehensions, decorators, and context managers."
+    },
+    {
+      "title": "Introduction to Data Science",
+      "link": "https://yourblog.com/2024-01-05-data-science-intro",
+      "snippet": "Data science is the art of extracting insights from data using statistical methods and programming. Python is one of the most popular languages for data science."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "content": "# LLM Feed for jtemporal.com\n\nThis file contains links to blog posts in markdown format for easy LLM consumption.\n\n- [Python Tips and Tricks](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/_posts/2024-01-15-python-tips.md)\n- [Getting Started with Web Development](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/_posts/2024-01-10-web-development.md)\n- [Introduction to Data Science](https://raw.githubusercontent.com/jtemporal/jtemporal.github.io/refs/heads/main/_posts/2024-01-05-data-science-intro.md)"
+}
