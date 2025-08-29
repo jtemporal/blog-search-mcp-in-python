@@ -33,15 +33,22 @@ def get_post_content(title: str) -> str:
         content = response.text
         lines = content.split('\n')
 
-        # Find the line that contains the title and extract the raw GitHub URL
+        # Find the "## All posts" section and extract posts from there
         raw_url = None
+        in_all_posts_section = False
+
         for line in lines:
-            if line.strip().startswith('#') or not line.strip():
-                # Skip comments and empty lines for a more robust parser
+            # Check if we've reached the "## All posts" section
+            if line.strip() == "## All posts":
+                in_all_posts_section = True
                 continue
-            if title in line:
+
+            # Only search for posts within the "All posts" section
+            if in_all_posts_section and title in line:
                 # Extract URL from markdown link format: [title](url)
-                raw_url = line.split('](')[1].strip(')')
+                if '](https://' in line:
+                    raw_url = line.split('](')[1].strip(')')
+                    break
 
         if not raw_url:
             return f"Post with title '{title}' not found in llm.txt"
